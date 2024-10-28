@@ -1,0 +1,66 @@
+\documentclass[12pt]{ctexart}
+
+% 包含必要的包
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}  % 数学符号包
+\usepackage{graphicx}  % 插入图片的包
+\usepackage{hyperref}  % 生成超链接
+\usepackage{fancyhdr}  % 页眉页脚设置
+\usepackage{geometry}  % 页面设置
+\usepackage{titlesec}  % 用于自定义 section 的格式
+\geometry{a4paper, margin=1in}
+
+\titleformat{\section}[hang]{\normalfont\Large\bfseries}{\thesection}{1em}{}
+
+
+% Header and footer
+\setlength{\headheight}{14.49998pt}
+\addtolength{\topmargin}{-2.49998pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{《统计信号处理》实验报告}
+% \fancyhead[M]{清华大学}
+\fancyhead[R]{刘昱杉 2024214103}
+\fancyfoot[C]{\thepage}
+
+
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        % Insert logo
+        \includegraphics[width=5cm]{tsinghua_logo.png}\\[4cm]  % 插入图标并设置下方间距
+        {\Huge 实验一：信号检测与分类} \\[4cm]
+        {\large 刘昱杉  \ \  2024214103}\\[6cm]
+        {\normalsize \today}\\[1cm]
+    \end{center}
+\end{titlepage}
+
+\section*{一、单电平信号检测}
+根据项目周期的长短，不同项目的存在时间不同，主要包括五个重要阶段：形成、磨合、规范、执行、解体。
+
+\begin{figure}[h]
+    \centering
+    % \includegraphics[width=1.0 \textwidth]{steps.png}
+    \label{fig:sample}
+\end{figure}
+\begin{enumerate}
+    \item 形成阶段：需要对成员充分定位，并指定目标、分配任务。负责人需要进行项目组织的指导与构建，包括进度计划、组织结构、各个成员充当角色等任务。
+    \item 磨合阶段：成员执行所分配的任务。负责人需要明确每个成员的具体职责，并尽可能地减少成员之间的冲突，构造和谐的工作环境。
+    \item 规范阶段：组织目标更加明确，成员之间相互信任相互帮助，项目组织的运作更加规范。
+    \item 执行阶段：项目运作步入正轨，各个成员基于完成项目目标，按照项目计划进行工作。
+    \item 解体阶段：项目完成，项目组织解散，成员回归原单位。
+\end{enumerate}
+
+\section*{5-7 如何理解项目的融资成本与资本结构？}
+
+\subsection*{融资成本}
+融资成本是指企业为筹集资金而支付的成本，包括债务成本和权益成本。债务成本是指企业通过借款筹集资金所支付的利息，权益成本是指企业通过发行股票筹集资金所支付的股利。
+
+\subsection*{资本结构}
+资本结构是指企业通过债务和权益筹集资金的比例。资本结构的优劣直接影响企业的融资成本和企业的价值。资本结构的优劣取决于企业的经营风险、融资成本、税收政策等因素。
+
+
+\end{document}
